@@ -7,7 +7,7 @@ const initialState = {
   error: "",
 };
 
-interface IUser{
+export interface IUser{
     id: number;
     name: string;
     username: string;
